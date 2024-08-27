@@ -16,12 +16,13 @@
                 ofrece todo lo necesario para llevar tus habilidades de desarrollo web al siguiente nivel. Explora
                 nuestras secciones para descubrir cómo HTML5 puede transformar tus proyectos y mejorar la experiencia del usuario
             </p>
+            <header> 
 
             <nav>
                 <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#introduccionhtml5">introduccion html5</a></li>
-                    <li><a href="#etiquetascabecera">etiquetas de cabecera</a></li>
+                    <li><a href="#atributoscomunesenhtml">Atributos Comunes</a></li>
                     <li><a href="#etiquetasmultimedia">etiquetas multimedia</a></li>
                     <li><a href="#etiquetassemanticas">etiquetas semanticas</a></li>
                 </ul>
@@ -29,27 +30,27 @@
             <main>
                 <section>
                     <h1> HTML5</h1>
-                    <p>---------------</p>
+                    <p>Código HTML y algunas de sus etiquetas</p>
 
                 </section>
                 
                 <article id="introduccionhtml5">
-                    <h3>Introduccion html5</h3>
+                    <h2>Introduccion html5</h2>
                     <figure>
-                        <img src="recursos/html.png " alt="Logo de HTML" width="150"/>
+                        <img src="recursos/imag.jpeg " alt="Logo de HTML" width="150"/>
                         <figcaption>
                             Fuente:
                             <a
-                            href=" https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.m.wikipedia.org%2Fwiki%2FArchivo%3AHTML5_logo_and_wordmark.svg&psig=AOvVaw2kqBpNq080wr16t1AZmdiM&ust=1723989675008000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPjMwZqY_IcDFQAAAAAdAAAAABAE"
+                            href=" https://xpertlab.com/html5-most-important-features-every-web-designer-should-know/"
                             target="blank"
-                            >emaillistvalidation.com</a>
+                            >xpertlab.com</a>
                             
                         </figcaption>
 
                     </figure>
                     <aside>
 
-                        <h4> Que es Html5?</h4>
+                        <h3> Que es Html5?</h3>
                         <figure>
                             <img src="https://programacion.net/files/article/20161223111243_html5.jpg " alt="Logo de html5" width="180"/>
                            </figure>
@@ -69,21 +70,126 @@
                             y seleccionando la opción Inspeccionar. Aquí tienes un panel más avanzado e interactivo.
 
                            </p>
+                           <p>
                            Dicho documento esta formado por etiquetas, que son la base del lenguaje HTML. Existen muchas etiquetas 
                            y cada una se utiliza para contener información y darle un cierto significado a dicha información, dependiendo
                             de la etiqueta que se trate. 
-
-                            
-
-                           
                            </p>
+                           <br>
+    
+                           <p> <strong>¿Atributos HTML?</strong><br><br>
+                            En algunas etiquetas HTML, existen algunos atributos específicos (que pueden ser opcionales u obligatorios). Los
+                            atributos determinan cierta información sobre la etiqueta (o su modo de actuar) y generalmente van asociados a un 
+                            valor determinado. Este par atributo-valor se escribe después del nombre de la etiqueta, separándola por espacio y
+                            antes del carácter > de la etiqueta de apertura  <br><br>
 
-                           
-                        
+                            Existen 3 tipos de atributos dependiendo de sus valores:<br>
+
+                            1.Conjunto de valores: Son aquellos atributos en los que sólo se permiten unos valores concretos. Cualquier otro valor  
+                            diferente, no será válido.<br>
+
+                            2.Valores libres: Son los atributos en los que puedes especificar un valor libremente, como una dirección URL o un texto, 
+                            y no existe una serie de valores específicos para escribir.<br>
+
+                            3.Valores booleanos: Son los atributos que deben tener un valor verdadero (true) o un valor falso (false). En HTML5 un 
+                            atributo sin valor (solo el atributo) significa verdadero y si se omite el atributo se considera falso.
+                            </p>
+
+
                     </aside>
-
-
                 </article>
+                <br>
+
+                <article id="atributoscomunesenhtml">
+                    <h4>Atributos Comunes</h4>
+                   
+                    <aside>
+                        <h4> cuales encontramos</h4>
+                        <p>tenemos los atributos, que son palabras clave de texto que modifican ligeramente el comportamiento de la etiqueta que lo contiene.
+
+                            En este apartado vamos a ver una lista de atributos comunes que tienen cierta relación con CSS y que pueden ser utilizados en prácticamente cualquier etiqueta HTML:</p>
+                        <a href="https://lenguajehtml.com/html/introduccion/atributos-comunes-html/" target="blank">ver más información</a>
+
+                        <table border="1"> 
+
+                            <thead> <!--SEMANTICA-->
+                                <tr>
+                                    <th>Atributo</th>
+                                    <th>Valor</th>
+                                    <th>Descripción</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>nombre</td>
+                                    <td>Establece un identificador único a la etiqueta HTML. Sólo el mismo nombre una vez por documento.</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>class</td>
+                                    <td>nombre</td>
+                                    <td>Establece una clase (género) a una etiqueta HTML. Puede repetirse por documento.</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>style</td>
+                                    <td>Estilos CSS</td>
+                                    <td>Aplica propiedades CSS directamente al elemento HTML en cuestión.</td>
+                                    
+                                </tr>
+                            </tbody>
+                    
+                    
+                           </table>
+                           <br>
+
+                           <p>
+                            veamos un ejemplo de codigo Atributo id
+                           </p>
+                           <label for="atributoid">ejemplo :</label><br>
+                           <!--textarea permite crear cuadro de texto de varias lineas-->
+                           <textarea id="atributoid" name="atributo id" 
+                            rows="7" cols="70" placeholder="
+                                <div id="pagina">
+                                <div>Aquí irá un anuncio</div>
+                                <div id="articulo">Aquí irá el contenido de texto del artículo</div>
+                                <div>Aquí irá un anuncio</div>
+                                </div>
+                                </textarea><br><br>
+
+                                <p>
+                                    El detalle principal más importante de los id, es que no pueden existir dos con el mismo nombre en un mismo documento.
+                                </p>
+                                <br>
+
+                                <p>
+                                    veamos un ejemplo de codigo Atributo class
+                                   </p>
+                                   <label for="atributoclass">ejemplo :</label><br>
+                                   <!--textarea permite crear cuadro de texto de varias lineas-->
+                                   <textarea id="atributoclass" name="atributo class " 
+                                    rows="7" cols="70" placeholder="
+                                    <div id="pagina">
+                                    <div class="anuncio">Aquí irá un anuncio</div>
+                                    <div id="articulo">Aquí irá el contenido de texto del artículo</div>
+                                    <div class="anuncio">Aquí irá un anuncio</div>
+                                    </div>
+
+                                    </textarea><br><br>
+        
+                                    <p>
+                                        Las clases funcionan de una forma muy similar a los id, pero son mucho más flexibles.
+                                        En primer lugar, no tienen la limitación de los id, por lo que pueden existir elementos
+                                        con la misma clase en un documento. De hecho, la idea de las clases es establecer géneros o tipos de etiquetas, a los que les asociemos características comunes.
+
+                                    </p>
+                                    <br>
+                    </aside>
+                    
+                </article >
+                <br>
 
 
 
