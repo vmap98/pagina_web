@@ -3,13 +3,34 @@
     padding: 0px;
 }
 
-h1{
+h1, h2 {
     text-align:center ;
+    font-size: 39px;
     
 }
 
+.html, .logo{
+    
+    text-align: center;
+    animation-name: logo; /*Asigna el nombre de la animación.*/
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes logo {
+    
+    from {background-color: rgb(23, 9, 181);}
+    to {background-color: rgb(13, 170, 184);}
+
+
+
+    }
+
 p{
     text-align: justify;
+    font-size: 19px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 header{
@@ -37,8 +58,8 @@ main{
   }
   @keyframes nav {
     
-  from {background-color: rgb(151, 194, 23);}
-  to {background-color: yellow;}
+  from {background-color: rgb(75, 19, 227);}
+  to {background-color: rgb(118, 93, 146);}
   }
 
 
@@ -69,9 +90,7 @@ main{
     background-color: #0000ff;
   }
 
-h2{
-    text-align:center ;
-}
+
 
 
 
@@ -84,7 +103,7 @@ h2{
 
 
 form{
-    background-color: #555592;
+    background-color: #9e9eec;
 }
   
 
