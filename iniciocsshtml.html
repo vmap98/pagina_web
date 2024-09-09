@@ -1,0 +1,440 @@
+<!DOCTYPE html>  <!-- declara el tipo de documento html-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/> <!--codificacion de caracteres-->
+        <title>Aplicacion web</title> <!--titulo de la pagina que aparece en el navegador-->
+        <link rel="stylesheet" href ="css/inicio.css">
+    </head>
+    <body>
+        
+
+        <div class="comienzo"></div>
+        <header class="header"> 
+            <h1 class="titulo"style="color: #ff6347;font-size: 82px; ">HTML 5</h1> 
+            <p> Bienvenido Te has preguntado que es HTML5 
+                HTML5 es la última evolución del lenguaje de marcado que ha revolucionado
+                la forma en que creamos y disfrutamos contenido en la web. Con HTML5, los desarrolladores
+                tienen acceso a una amplia gama de nuevas características y mejoras que permiten construir
+                sitios web más ricos, interactivos y accesibles. Desde elementos semánticos que mejoran la 
+                estructura de la página hasta herramientas avanzadas para multimedia y almacenamiento, HTML5 
+                ofrece todo lo necesario para llevar tus habilidades de desarrollo web al siguiente nivel. Explora
+                nuestras secciones para descubrir cómo HTML5 puede transformar tus proyectos y mejorar la experiencia del usuario
+            </p>
+        </header> 
+
+            <nav class="nav">
+                <ul>
+                    <li><a class=button href="#">Inicio</a></li>
+                    <li><a class=buttonuno href="#introduccionhtml5">introduccion html5</a></li>
+                    <li><a class=buttondos href="#atributoscomunesenhtml">Atributos Comunes</a></li>
+                    <li><a class=buttontres href="#Estructuradeldocumemto">Estructura del documento html</a></li>
+                    <li><a class=buttoncuatro href="#Validaciondeerrores">Validacion de errores Html</a></li>
+                </ul>
+            </nav>
+            <main class="main-comienzo">
+                <section class="section">
+                    <h2 > HTML5</h2>
+                    <p>Código HTML y algunas de sus etiquetas</p>
+
+                </section>
+                
+                <article id="introduccionhtml5" class="article">
+                    <h2>Introduccion html5</h2>
+                    <figure class="html">
+                        <img src="recursos/imag.jpeg " alt="Logo de HTML" width="650"/>
+                        <figcaption>
+                            Fuente:
+                            <a
+                            href=" https://lenguajehtml.com/html/introduccion/estructura-documento-html/"
+                            target="blank"
+                            >lenguajehtml.com</a>
+                            
+                        </figcaption>
+
+                    </figure>
+                    <aside class="aside">
+
+                        <h2> Que es Html5?</h2>
+                        <figure class="logo">
+                            <img src="https://programacion.net/files/article/20161223111243_html5.jpg " alt="Logo de html5" width="650"/>
+                           </figure>
+                        <p>El documento que lee el navegador está escrito en un lenguaje 
+                           de marcado llamado HTML, que son las siglas de HyperText Markup 
+                           Language (Lenguaje de marcas de hipertexto), o lo que es lo mismo, 
+                           un lenguaje de etiquetas que permite incluir o hacer referencia a 
+                           todo tipo de información</p>
+
+                           <p> <strong>¿Qué es una etiqueta HTML?</strong><br><br>
+
+                            En los navegadores, tienes varias formas de acceder al código HTML de la página:
+
+                            combinaciones de teclas como <br><br>
+                            CTRL + U aparecerá el código fuente tal cuál lo recibe el navegador.
+                            CTRL + SHIFT + I y accediendo a la pestaña Elements, o simplemente haciendo click con botón derecho
+                            y seleccionando la opción Inspeccionar. Aquí tienes un panel más avanzado e interactivo.
+
+                           </p>
+                           <p>
+                           Dicho documento esta formado por etiquetas, que son la base del lenguaje HTML. Existen muchas etiquetas 
+                           y cada una se utiliza para contener información y darle un cierto significado a dicha información, dependiendo
+                            de la etiqueta que se trate. 
+                           </p>
+                           <br>
+    
+                           <p> <strong>¿Atributos HTML?</strong><br><br>
+                            En algunas etiquetas HTML, existen algunos atributos específicos (que pueden ser opcionales u obligatorios). Los
+                            atributos determinan cierta información sobre la etiqueta (o su modo de actuar) y generalmente van asociados a un 
+                            valor determinado. Este par atributo-valor se escribe después del nombre de la etiqueta, separándola por espacio y
+                            antes del carácter > de la etiqueta de apertura  <br><br>
+
+                            Existen 3 tipos de atributos dependiendo de sus valores:<br>
+
+                            1.Conjunto de valores: Son aquellos atributos en los que sólo se permiten unos valores concretos. Cualquier otro valor  
+                            diferente, no será válido.<br>
+
+                            2.Valores libres: Son los atributos en los que puedes especificar un valor libremente, como una dirección URL o un texto, 
+                            y no existe una serie de valores específicos para escribir.<br>
+
+                            3.Valores booleanos: Son los atributos que deben tener un valor verdadero (true) o un valor falso (false). En HTML5 un 
+                            atributo sin valor (solo el atributo) significa verdadero y si se omite el atributo se considera falso.
+                            </p>
+
+
+                    </aside>
+                </article>
+                <br>
+
+                <article id="atributoscomunesenhtml" class="article">
+                    <h1>Atributos Comunes</h1>
+                   
+                    <aside class="aside">
+                        <h2> cuales encontramos</h2>
+                        <p>tenemos los atributos, que son palabras clave de texto que modifican ligeramente el comportamiento de la etiqueta que lo contiene.
+
+                            En este apartado vamos a ver una lista de atributos comunes que tienen cierta relación con CSS y que pueden ser utilizados en prácticamente cualquier etiqueta HTML:</p>
+                        <a href="https://lenguajehtml.com/html/introduccion/atributos-comunes-html/" target="blank">ver más información</a>
+
+                        <table class="tableuno" border="1"> 
+
+                            <thead> <!--SEMANTICA-->
+                                <tr>
+                                    <th>Atributo</th>
+                                    <th>Valor</th>
+                                    <th>Descripción</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>nombre</td>
+                                    <td>Establece un identificador único a la etiqueta HTML. Sólo el mismo nombre una vez por documento.</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>class</td>
+                                    <td>nombre</td>
+                                    <td>Establece una clase (género) a una etiqueta HTML. Puede repetirse por documento.</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>style</td>
+                                    <td>Estilos CSS</td>
+                                    <td>Aplica propiedades CSS directamente al elemento HTML en cuestión.</td>
+                                    
+                                </tr>
+                            </tbody>
+                    
+                    
+                           </table>
+                           <br>
+
+                           <p>
+                            veamos un ejemplo de codigo Atributo id
+                           </p>
+                           <label for="atributoid">ejemplo :</label><br>
+                           <!--textarea permite crear cuadro de texto de varias lineas-->
+                           <textarea id="atributoid" name="atributo id" 
+                            rows="7" cols="70" placeholder="
+                                <div id="pagina">
+                                <div>Aquí irá un anuncio</div>
+                                <div id="articulo">Aquí irá el contenido de texto del artículo</div>
+                                <div>Aquí irá un anuncio</div>
+                                </div>
+                                </textarea><br><br>
+
+                                <p>
+                                    El detalle principal más importante de los id, es que no pueden existir dos con el mismo nombre en un mismo documento.
+                                </p>
+                                <br>
+
+                                <p>
+                                    veamos un ejemplo de codigo Atributo class
+                                   </p>
+                                   <label for="atributoclass">ejemplo :</label><br>
+                                   <!--textarea permite crear cuadro de texto de varias lineas-->
+                                   <textarea id="atributoclass" name="atributo class " 
+                                    rows="7" cols="70" placeholder="
+                                    <div id="pagina">
+                                    <div class="anuncio">Aquí irá un anuncio</div>
+                                    <div id="articulo">Aquí irá el contenido de texto del artículo</div>
+                                    <div class="anuncio">Aquí irá un anuncio</div>
+                                    </div>
+
+                                    </textarea><br><br>
+        
+                                    <p>
+                                        Las clases funcionan de una forma muy similar a los id, pero son mucho más flexibles.
+                                        En primer lugar, no tienen la limitación de los id, por lo que pueden existir elementos
+                                        con la misma clase en un documento. De hecho, la idea de las clases es establecer géneros o tipos de etiquetas, a los que les asociemos características comunes.
+
+                                    </p>
+                                    <br>
+                    </aside>
+                    
+                </article >
+                <br>
+
+                <h1>Dejamos algunos videos de apoyo </h1>
+
+                <table>
+                    <tr>
+                        <td>
+                            <iframe width="560" height="315" 
+                                src="https://www.youtube.com/embed/_93kDSPlKIM" 
+                                title="YouTube html5" 
+                                frameborder="0"  
+                                allowfullscreen>
+                            </iframe>
+                        </td>
+                        <td>
+                            <iframe width="560" height="315" 
+                                src="https://www.youtube.com/embed/7LVVliwOA-U" 
+                                title="YouTube atributos class id" 
+                                frameborder="0"  
+                                allowfullscreen>
+                            </iframe>
+                        </td>
+                        
+                    </tr>
+                </table>
+            </aside>
+            </article>
+            <br>
+
+
+            <article id="Estructuradeldocumemto" class="article">
+                <h2>Estructura del documento html</h2>
+
+                <p>
+                Observa que tenemos una zona superior (en azul claro) que es el tipo de documento. Luego, abrimos la etiqueta <html> que 
+                contendrá dos partes principales: la cabecera del documento (en naranja) y el cuerpo del documento (en azul oscuro):
+                </p>
+                <figure class="estructura">
+                    <img src="recursos/estructura.png " alt="estructura del documento html" width="550"/>
+                    <figcaption>
+                        Fuente:
+                        <a
+                        href=" https://lenguajehtml.com/html/introduccion/estructura-documento-html/"
+                        target="blank"
+                        >lenguajehtml.com</a>
+                        
+                    </figcaption>
+                </figure>
+
+                <aside class="aside">
+
+                    <h2> El DOCTYPE (tipo de documento) </h2>
+                    
+                    <p>es una etiqueta especial que se escribe en la primera línea del documento HTML. Debe ir especificado siempre para que el navegador 
+                    sepa de que tipo de documento HTML se trata. </p>
+
+                    <h2> La etiqueta head (metadatos) </h2>
+                    
+                    <p>esta cabecera no es una parte visual de la página web, sino una parte de nuestro código HTML donde se incluyen ciertas etiquetas de
+                    metadatos, es decir, unas etiquetas que establecen ciertos datos que no tienen que verse necesariamente de forma visual.  <br>
+
+                    Algunos ejemplos de metadatos de un documento HTML podrían ser los siguientes:<br>
+
+                    <ol>
+                        <li> Título de la página web (aparece en la pestaña del navegador). Esta etiqueta es obligatoria.</li>
+                        <li> Descripción de la página (aparece en los resultados de Google)</li>
+                        <li>Miniatura/preview de la página (aparece al poner enlace en redes sociales)</li>
+                        <li>Icono de la página (aparece en la pestaña del navegador)</li>
+                        </ol>
+                </p>
+                <h2> La etiqueta body (cuerpo) </h2>
+                    
+                <p>La otra parte principal de un documento HTML es la etiqueta &lt;body&gt;. Todos los elementos visuales de una página se encuentran en el interior de 
+                    la etiqueta &lt;body&gt;, por lo que es una de las partes más importantes de una página web. Esta sección va inmediatamente después del cierre de la etiqueta &lt;/head&gt; </p>
+
+                </aside>
+            </article>
+         
+
+               
+
+                  
+            <article id="Validaciondeerrores" class="article">
+                <h1>Validacion de errores html</h1>
+               
+                <aside class="aside">
+
+                    <h2> Tipos de problemas</h2>
+                    
+                    <p>En nuestro código HTML podemos tener varios tipos de problemas. Vamos a desglosarlos en una tabla de categorías:</p>
+
+                    <table border="1"> 
+
+                        <thead> <!--SEMANTICA-->
+                            <tr>
+                                <th>Tipo de Error </th>
+                                <th>Descripcion</th>
+                                
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Sintaxis</td>
+                                <td>El código está mal escrito y es incorrecto. El navegador podría no mostrar correctamente ciertos detalles.</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Accesibilidad</td>
+                                <td>El código no tiene porque estar mal escrito o ser incorrecto, sin embargo, tiene problemas que harán que no se
+                                 vean bien en determinados dispositivos o que un usuario invidente o similar no pueda utilizarla.</td>
+                                
+                                
+                            </tr>
+                            <tr>
+                                <td>Posicionamiento (SEO)</td>
+                                <td>El código no tiene porque estar mal escrito o ser incorrecto, sin embargo, los buscadores como Google no aceptarán
+                                 favorablemente la página y podría tener un rendimiento menor de posicionamiento SEO.</td>
+                               
+                            </tr>
+                            <tr>
+                                <td>Rendimiento</td>
+                                <td>El código no tiene porque estar mal escrito o ser incorrecto, sin embargo, el navegador puede ser lento a la hora de 
+                                    cargarlo o tardar en realizar sus tareas.</td>
+                            
+                            
+                            </tr>
+
+                            <tr>
+                                <td>Usabilidad</td>
+                                <td>EEl código no tiene porque estar mal escrito o ser incorrecto, sin embargo, la forma en la que se disponen los elementos
+                                     o está pensado puede frustrar al usuario final que utiliza la web.</td>
+                            
+                            
+                            </tr>
+                        </tbody>
+                
+                
+                       </table>
+                       <br>
+
+                      
+                </aside>
+            </article>
+            <br>
+
+
+
+                    
+                       
+
+
+
+
+            </main>
+
+
+
+        </header>
+    </div>
+
+
+
+
+
+
+
+    <form>
+        <fieldset> <!--permite organizar en grupos los campos de un formulario-->
+            <legend>Dejanos tu comentario sobre la página</legend>
+            <label>Nombre:</label>
+            <input type="text" 
+            name="nombreInp" 
+            maxlength="10" 
+            placeholder="Ingrese el Nombre"
+            value=" "
+            required
+            />
+
+            <label>Apellido:</label>
+            <input type="text" 
+            name="apellidoInp" 
+            maxlength="10" 
+            placeholder="Ingrese el apellido"
+            value=" "
+            required
+            />
+            <label>contrasena:</label>
+            <input type="password" name="contrasena" required>
+            <label>Email</label>
+            <input type="email" name="email">
+            <br>
+            <label>Edad</label>
+            <input type="number" name="edad" min="18" max="115">
+            <label>fecha</label>
+            <input type="date" name ="fecha">
+            <label>fecha hora</label>
+            <input type="datetime-local" name ="fechaHora">
+            <br>
+            <label>opciones:</label>
+            <label>
+                <input type="radio" name="optRadio" value="1" checked >Me ha sido útil
+            </label>
+            <label>
+                <input type="radio" name="optRadio" value="2">No me fue de gran ayuda
+            </label>
+            <label>
+                <input type="radio" name="optRadio" value="3">Por mejorar
+            </label>
+            <br>
+            
+            <label>Ciudad</label>
+            <select name="ciudad">
+                <option value="1">Tunja</option>
+                <option value="2">Duitama</option>
+                <option value="3" selected>Chiquinquirá</option>
+            </select>
+            <br>
+            <label> observaciones</label>
+            <textarea name ="observaciones" cols="90" rows="15"> </textarea>    <!--aaa (esto queda establecido)-->
+            <br>
+            <label>Archivo</label>
+            <input type="file" name="archivo"> <!--boton seleciconar archivos -->
+            <br>
+            <input type="hidden" name="ejemplo" value="12"><!--campos ocultos-->
+
+        </fieldset>
+        <br>
+        <input type="submit" value="aceptar">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+
+    <footer>
+        <a href= "https://lenguajehtml.com/html/introduccion/estructura-documento-html/" target="blank"> Datos tomados de lenguajehtml.com</a>
+    </footer>
+
+
+
+
+
+
+    </body>
+    </html>  

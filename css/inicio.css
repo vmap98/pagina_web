@@ -1,0 +1,91 @@
+*{
+    margin: 2px;
+    padding: 0px;
+}
+
+h1{
+    text-align:center ;
+    
+}
+
+p{
+    text-align: justify;
+}
+
+header{
+    background-color: #00ffff;
+    grid-area: h;
+    
+}
+
+    
+main{
+    background-color: #21a28c7d;
+    grid-area: m;
+}
+
+
+.nav {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    
+    animation-name: nav; /*Asigna el nombre de la animación.*/
+    animation-duration: 4s;
+    animation-iteration-count: infinite;/*La animación se repetirá infinitamente.*/
+    animation-timing-function: linear;
+  }
+  @keyframes nav {
+    
+  from {background-color: rgb(151, 194, 23);}
+  to {background-color: yellow;}
+  }
+
+
+
+  nav ul{
+    display: flex;
+    
+  }
+
+  .button, .buttonuno, .buttondos, .buttontres, .buttoncuatro{
+  background-color: #04AA6D;
+  width: auto;/*ancho*/
+  height: 50px;/*altura*/
+  border-radius: 16px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;/*tamaño de la fuente*/
+  margin: 4px 2px;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color;
+
+  }
+
+  .button:hover , .buttonuno:hover, .buttondos:hover, .buttontres:hover, .buttoncuatro:hover {
+    background-color: #0000ff;
+  }
+
+h2{
+    text-align:center ;
+}
+
+
+
+
+
+
+
+
+
+
+
+form{
+    background-color: #555592;
+}
+  
+
+ 
