@@ -20,7 +20,7 @@ h1, h2 {
 }
 @keyframes logo {
     
-    from {background-color: rgb(23, 9, 181);}
+    from {background-color: rgb(175, 140, 230);}
     to {background-color: rgb(13, 170, 184);}
 
 
@@ -41,8 +41,9 @@ header{
 
     
 main{
-    background-color: #21a28c7d;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/891/104/non_2x/abstract-gradient-background-purple-elegant-style-perfect-for-design-wallpaper-promotion-presentation-website-banner-etc-illustration-background-vector.jpg');
     grid-area: m;
+    background-size: cover;
 }
 
 
@@ -58,8 +59,8 @@ main{
   }
   @keyframes nav {
     
-  from {background-color: rgb(75, 19, 227);}
-  to {background-color: rgb(118, 93, 146);}
+  from {background-color: rgb(60, 227, 227);}
+  to {background-color: rgb(18, 160, 77);}
   }
 
 
