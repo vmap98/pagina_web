@@ -3,6 +3,42 @@
     padding: 0px;
 }
 
+
+header{
+    background-color: #00ffff;
+    grid-area: h;
+    
+}
+
+.titulo{
+    font-size: 16px;
+    padding: 0 200px;
+    text-align: center;
+    font-weight: bold;
+    animation-iteration-count: infinite;
+    animation: tamaño 2s ease-in-out; 
+}
+
+@keyframes  tamaño{
+    
+    0%{
+        font-size: 16px;
+    }
+    50%{
+        font-size: 100px;
+    }
+    100%{
+        font-size: 16px;
+    }
+
+    }
+
+    .titulo:hover {
+        background-color: #0d494a;/*Cambia el color de fondo a azul cuando se pasa el ratón.*/
+        box-shadow: 14px 6px 17px 8px rgba(0, 0, 0, 0.5); /*agregar sombra*/
+        
+      }
+
 h1, h2 {
     text-align:center ;
     font-size: 39px;
@@ -33,11 +69,6 @@ p{
     font-family: "Times New Roman", Times, serif;
 }
 
-header{
-    background-color: #00ffff;
-    grid-area: h;
-    
-}
 
     
 main{
@@ -51,7 +82,6 @@ main{
     position: relative;
     top: 0px;
     left: 0px;
-    
     animation-name: nav; /*Asigna el nombre de la animación.*/
     animation-duration: 4s;
     animation-iteration-count: infinite;/*La animación se repetirá infinitamente.*/
@@ -60,7 +90,7 @@ main{
   @keyframes nav {
     
   from {background-color: rgb(60, 227, 227);}
-  to {background-color: rgb(18, 160, 77);}
+  to {background-color: rgb(139, 48, 125);}
   }
 
 
@@ -71,7 +101,8 @@ main{
   }
 
   .button, .buttonuno, .buttondos, .buttontres, .buttoncuatro{
-  background-color: #04AA6D;
+  background-color: #ba168e;
+  justify-content: space-between;
   width: auto;/*ancho*/
   height: 50px;/*altura*/
   border-radius: 16px;
@@ -88,7 +119,7 @@ main{
   }
 
   .button:hover , .buttonuno:hover, .buttondos:hover, .buttontres:hover, .buttoncuatro:hover {
-    background-color: #0000ff;
+    background-color: #b66f13;
   }
 
 
