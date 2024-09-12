@@ -39,6 +39,12 @@ header{
         
       }
 
+      .pst {
+        text-align:center ;
+        font-size: 28px;
+        transition: left 500ms 2s linear, top 500ms 2s linear;
+      }
+
 h1, h2 {
     text-align:center ;
     font-size: 39px;
@@ -56,8 +62,8 @@ h1, h2 {
 }
 @keyframes logo {
     
-    from {background-color: rgb(175, 140, 230);}
-    to {background-color: rgb(13, 170, 184);}
+    from {background-color: rgb(170, 160, 187);}
+    to {background-color: rgb(44, 139, 148);}
 
 
 
@@ -89,20 +95,21 @@ main{
   }
   @keyframes nav {
     
-  from {background-color: rgb(60, 227, 227);}
-  to {background-color: rgb(139, 48, 125);}
+  from {background-color: rgb(46, 62, 166);}
+  to {background-color: rgb(240, 162, 228);}
   }
 
 
 
   nav ul{
     display: flex;
+    justify-content: space-around;/* Distribuye los botones uniformemente */
     
   }
 
   .button, .buttonuno, .buttondos, .buttontres, .buttoncuatro{
-  background-color: #ba168e;
-  justify-content: space-between;
+  background-color: #b33491;
+  
   width: auto;/*ancho*/
   height: 50px;/*altura*/
   border-radius: 16px;
@@ -122,12 +129,7 @@ main{
     background-color: #b66f13;
   }
 
-
-
-
-
-
-
+  
 
 
 
@@ -136,6 +138,28 @@ main{
 
 form{
     background-color: #9e9eec;
+}
+
+.tableuno{
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;}
+
+.videos {
+   margin: 0 auto;
+    border: 2px solid #ddd;
+}
+.estructura{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-container{
+    background-color: #d362b5;
+    width: 100%;
+
 }
   
 
